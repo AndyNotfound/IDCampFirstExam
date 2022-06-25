@@ -7,18 +7,24 @@
     <link rel="stylesheet" href="style.css">
     <title>IDCamp - FistExam</title>
 </head>
-<body>
+<body class="lightmode">
     <header>
+        <div class="headerBanner">
+            <h1>Travelview</h1>
+            <p>The best travel review blog</p>
+        </div>
+        
         <nav>
             <ul class="navigationLink">
                 <li><a href="/">Home</a></li>
                 <li><a href="#blog">Blog</a></li>
-                <li><a href="#footer">Contact</a></li>
+                <li><button class="cta"><a href="#footer">Contact</a></button></li>
+                <li><button id="darkMode" class="darkmode"><img src="/assets/dark.png" alt=""></button></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="blog">
+        <div id="blog" class="blogPost">
             <article>
                 <div class="image">
                     <img src="/assets/paris.jpg" alt="Woman cycling through paris pavement">
@@ -28,7 +34,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, labore veniam? Culpa, corporis aperiam hic quis voluptates alias perferendis et.</p>
                     <div class="articleWrite">
                         <h4>By Gohand Brilliant Silitonga</h4>
-                        <p>March, 16 2022</p>
+                        <p>March, 16 2022.</p>
                     </div>
                 </div>
             </article>
@@ -39,28 +45,31 @@
                 <div class="articleDetail">
                     <h3>The mountain view of California</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, labore veniam? Culpa, corporis aperiam hic quis voluptates alias perferendis et.</p>
-                    <div class="articleDetail">
-                        <h3>Best town to go cycling arround</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, labore veniam? Culpa, corporis aperiam hic quis voluptates alias perferendis et.</p>
-                        <div class="articleWrite">
-                            <h4>By Gohand Brilliant Silitonga</h4>
-                            <p>March, 16 2022</p>
-                        </div>
-                    </div> 
+                    <div class="articleWrite">
+                        <h4>By Gohand Brilliant Silitonga</h4>
+                        <p>March, 16 2022.</p>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="image">
+                    <img src="/assets/california.jpg" alt="Woman drinking beer on Mountain view california">
+                </div>
+                <div class="articleDetail">
+                    <h3>The mountain view of California</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, labore veniam? Culpa, corporis aperiam hic quis voluptates alias perferendis et.</p>
+                    <div class="articleWrite">
+                        <h4>By Gohand Brilliant Silitonga</h4>
+                        <p>March, 16 2022.</p>
+                    </div>
                 </div>
             </article>
         </div>
         <aside class="personalInfo">
             <img src="/assets//profile.jpeg" alt="Gohand Brilliant Silitonga face potrait" class="profileImage">
             <div class="profileDetail">
-                <div class="profile">
-                    <p>Nama : </p>
-                    <p>Gohand Brilliant Silitonga</p>
-                </div>
-                <div class="profile">
-                    <p>Alamat : </p>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, aut?</p>
-                </div>
+                <p>Nama : Gohand Brilliant Silitonga</p>
+                <p>Alamat : Jl. Marina City, Batam</p>
             </div>
         </aside>
     </main>
