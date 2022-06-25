@@ -103,7 +103,7 @@ main{
 }
 
 .blogPost{
-    width: 50%;
+    width: 68%;
     display: flex;
     flex-direction: column;
     gap: 2em;
@@ -115,7 +115,7 @@ article{
 }
 
 article > .image {
-    width: 200px;
+    width: 140px;
     height: auto;
     cursor: pointer;
 }
@@ -132,6 +132,7 @@ article > .image > img{
     flex-direction: column;
     gap: 0.5em;
     padding: 1em;
+    width: calc(100% - 200px);
 }
 
 .articleDetail > h3:hover{
@@ -206,6 +207,10 @@ footer{
         width: 100%;
     }
 
+    .articleDetail{
+        width: 100%;
+    }
+
     aside{
         margin-top: 2em;
         width: 100%;
@@ -241,12 +246,5 @@ footer{
         margin-top: 5em;
         width: 100%;
         align-items: center;
-    }
-}
-
-@media (min-width:1000px){
-    footer{
-        position: absolute;
-        bottom: 0;
     }
 }
