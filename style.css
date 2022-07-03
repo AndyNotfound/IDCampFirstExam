@@ -120,12 +120,6 @@ article > .image {
     cursor: pointer;
 }
 
-article > .image > img{
-    border-radius: 0.2em;
-    width: 100%;
-    height: 100%;
-}
-
 .articleDetail{
     cursor: pointer;
     display: flex;
